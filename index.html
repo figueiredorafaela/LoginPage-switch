@@ -5,11 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-    
+
     <title>Login</title>
 </head>
 <body>
-    
+    <div class="main"
+        <div class="container register-form" id="register-form"> 
+            <form action="" id="register-form" class="form">
+                <h2 class="form-title title">
+                    Create account
+                </h2>
+                <div class="form-icon"></div>
+                    <span class="form-span">or use e-mail for registeration</span>
+                    <input type="text" class="form-input" placeholder="Name">
+                    <input type="text" class="form-input" placeholder="E-mail">
+                    <input type="password" class="form-input" placeholder="Password">
+                    <button class="form-button button submit">Sign in</button>
+            </form>
+        </div> 
+
+        <div class="container login-form" id="login-form"> 
+            <form action="" id="login-form" class="form">
+                <h2 class="form-title title">
+                    Sign in
+                </h2>
+                <div class="form-icon"></div>
+                    <span class="form-span">or use your e-mail account</span>
+                    <input type="text" class="form-input" placeholder="Name">
+                    <input type="text" class="form-input" placeholder="E-mail">
+                    <input type="password" class="form-input" placeholder="Password">
+                    <a href="#" class="form-link">Forgot your password?</a>
+                    <button class="form-button button submit">Sign in</button>
+            </form>
+        </div> 
+
+        <div class="switch" id="switch-form">
+            <div class="switch-circle"></div>
+            <div class="switch-circle switch-circle-t"></div>
+            <div class="switch-form" id="switch-f1">
+                <h2 class="switch-title title">
+                    Welcome back!
+                </h2>
+                <p class="switch-description description">
+                    Enter with your account to keep connected with us
+                </p>
+                <button class="switch-button button switch-btn">Login</button>
+            </div>
+
+            <div class="switch-form is-hidden" id="switch-f2">
+                <h2 class="switch-title title">
+                    Hello!
+                </h2>
+                <p class="switch-description description">
+                    Fill the form to start with us!
+                </p>
+                <button class="switch-button button switch-btn">Login</button>
+            </div>
+        </div>
+
+    </div>
 
     <script src="script.js"></script>
 </body>
